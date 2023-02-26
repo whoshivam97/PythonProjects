@@ -6,4 +6,11 @@ And you need a program to understand that language and produce output.
 
 And IDE is like a text editor where you write that Python code.
 
-texts in Python goes always inside quotes
+Texts in Python goes always inside quotes
+
+So let's start to get user inputs.
+You use the input function.
+
+Well,Text in Python is known as string.
+
+You cannot have numbers in the beginning of the variable, though that is not allowed.
