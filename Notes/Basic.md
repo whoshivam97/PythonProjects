@@ -16,4 +16,6 @@ You use the input function.
 
 8-So this type function is designed to output the type of its argument.i.e print(type(argument))
 
-9-
+9-Well, the point here is that single codes work as good as double quotes.
+
+10-You can check the number of characters for a string using the len function.
