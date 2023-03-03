@@ -19,3 +19,4 @@ You use the input function.
 9-Well, the point here is that single codes work as good as double quotes.
 
 10-You can check the number of characters for a string using the len function.
+
