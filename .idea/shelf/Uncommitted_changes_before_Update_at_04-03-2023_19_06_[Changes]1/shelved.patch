@@ -1,0 +1,259 @@
+Index: .idea/.gitignore
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+deleted file mode 100644
+--- a/.idea/.gitignore	
++++ /dev/null	
+@@ -1,3 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+Index: .idea/modules.xml
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+deleted file mode 100644
+--- a/.idea/modules.xml	
++++ /dev/null	
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectModuleManager">
+-    <modules>
+-      <module fileurl="file://$PROJECT_DIR$/.idea/The Python Mega Course.iml" filepath="$PROJECT_DIR$/.idea/The Python Mega Course.iml" />
+-    </modules>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: app1/main.py
+===================================================================
+diff --git a/app1/main.py b/app1/main.py
+deleted file mode 100644
+--- a/app1/main.py	
++++ /dev/null	
+@@ -1,19 +0,0 @@
+-print("Enter a to-do:")
+-
+-Getting user Input
+-user_prompt = "Enter a todo:"
+-text = input(user_prompt)
+-print(text)
+-
+-Storing User Input:
+-user_prompt = "enter a todo:"
+-todo1 = input(user_prompt)
+-todo2 = input(user_prompt)
+-todo3 = input(user_prompt)
+-todos = [todo1, todo2, todo3]
+-print(todos)
+-
+-we will be building a program which checks the title of a book and gives us the length of that title.
+-text = input("Enter the Book Name: ")
+-length = len(text)
+-print("The length of the book is ", length)
+Index: .idea/inspectionProfiles/profiles_settings.xml
+===================================================================
+diff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml
+deleted file mode 100644
+--- a/.idea/inspectionProfiles/profiles_settings.xml	
++++ /dev/null	
+@@ -1,6 +0,0 @@
+-<component name="InspectionProjectProfileManager">
+-  <settings>
+-    <option name="USE_PROJECT_PROFILE" value="false" />
+-    <version value="1.0" />
+-  </settings>
+-</component>
+\ No newline at end of file
+Index: CodingExercise/exercise1.py
+===================================================================
+diff --git a/CodingExercise/exercise1.py b/CodingExercise/exercise1.py
+deleted file mode 100644
+--- a/CodingExercise/exercise1.py	
++++ /dev/null	
+@@ -1,16 +0,0 @@
+-Coding Exercise 1
+-Write a Python program following the steps below:
+-
+-1. Create a variable (any name) and store a string in the variable.
+-2. Then, print out the type of the variable.
+-text = input("Enter Your Name: ")
+-print(type(text))
+-
+-Coding Exercise 2
+-Write a Python program that gets input from the user and prints out that input.
+-name = input("Enter your name: ")
+-print(name)
+-
+-Coding Exercise 3
+-Create a list of four strings and associate the list with a variable.
+-animal = ['cat', 'dog', 'elephant', 'rat']
+Index: .idea/The Python Mega Course.iml
+===================================================================
+diff --git a/.idea/The Python Mega Course.iml b/.idea/The Python Mega Course.iml
+deleted file mode 100644
+--- a/.idea/The Python Mega Course.iml	
++++ /dev/null	
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module type="PYTHON_MODULE" version="4">
+-  <component name="NewModuleRootManager">
+-    <content url="file://$MODULE_DIR$" />
+-    <orderEntry type="jdk" jdkName="Python 3.11" jdkType="Python SDK" />
+-    <orderEntry type="sourceFolder" forTests="false" />
+-  </component>
+-</module>
+\ No newline at end of file
+Index: .idea/vcs.xml
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+deleted file mode 100644
+--- a/.idea/vcs.xml	
++++ /dev/null	
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+deleted file mode 100644
+--- a/.idea/misc.xml	
++++ /dev/null	
+@@ -1,4 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11" project-jdk-type="Python SDK" />
+-</project>
+\ No newline at end of file
+Index: Notes/Basic.md
+===================================================================
+diff --git a/Notes/Basic.md b/Notes/Basic.md
+deleted file mode 100644
+--- a/Notes/Basic.md	
++++ /dev/null	
+@@ -1,22 +0,0 @@
+-1-Python Interpreter is a software designed to interpret Python code.
+-
+-2-So Python itself is just a language, right
+-And you need a program to understand that language and produce output.
+-
+-3-And IDE is like a text editor where you write that Python code.
+-
+-4-Texts in Python goes always inside quotes
+-
+-5-So let's start to get user inputs.
+-You use the input function.
+-
+-6-Well,Text in Python is known as string.
+-
+-7-You cannot have numbers in the beginning of the variable, though that is not allowed.
+-
+-8-So this type function is designed to output the type of its argument.i.e print(type(argument))
+-
+-9-Well, the point here is that single codes work as good as double quotes.
+-
+-10-You can check the number of characters for a string using the len function.
+-
+Index: .idea/git_toolbox_prj.xml
+===================================================================
+diff --git a/.idea/git_toolbox_prj.xml b/.idea/git_toolbox_prj.xml
+deleted file mode 100644
+--- a/.idea/git_toolbox_prj.xml	
++++ /dev/null	
+@@ -1,15 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="GitToolBoxProjectSettings">
+-    <option name="commitMessageIssueKeyValidationOverride">
+-      <BoolValueOverride>
+-        <option name="enabled" value="true" />
+-      </BoolValueOverride>
+-    </option>
+-    <option name="commitMessageValidationEnabledOverride">
+-      <BoolValueOverride>
+-        <option name="enabled" value="true" />
+-      </BoolValueOverride>
+-    </option>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: Notes/faq.md
+===================================================================
+diff --git a/Notes/faq.md b/Notes/faq.md
+deleted file mode 100644
+--- a/Notes/faq.md	
++++ /dev/null	
+@@ -1,33 +0,0 @@
+-❓ FAQ
+-Q1. Does white space matter in the code?
+-A1: White space is ignored by the interpreter except in the cases below:
+-
+-1. When space is in front of a line of code:
+-
+-   greeting1 = "Hi"
+-   greeting2 = "Hello "
+-   Running the above code produces an error because of the white space before greeting1.
+-
+-2. When space is inside strings. Having white space inside a string will not produce any error, but you should keep in mind that "Hello " and "Hello" are not treated as the same value by Python.
+-
+-3. When space occurs in a variable name:
+-
+-today greeting = "Hello"
+-
+-The above code will produce an error because it is against the syntax rules to have spaces in variables. Programmers are encouraged to use an underscore instead of a space.
+-
+-Q2. Should a function argument be a variable or a value?
+-A2: It can be either way, depending on the scenario.
+-It is OK to provide the value (e.g., a string) directly as an argument:
+-
+-user_input = input("Enter a value:")
+-
+-But it is also OK to provide the variable associated with the value:
+-
+-message = "Enter a value:"
+-user_input = input(message)
+-
+-Q3. What happens if you create a variable two times in a program? For example:
+-greeting = "Hello"
+-greeting = "Hi"
+-A3: The variable will first be assigned the value "Hello" and then immediately, it will be assigned the new value "Hi" overwriting the old value.
+Index: Section2(While-loops,Methods)/App1/methodusecase.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Section2(While-loops,Methods)/App1/methodusecase.py b/Section2(While-loops,Methods)/App1/methodusecase.py
+new file mode 100644
+--- /dev/null	
++++ b/Section2(While-loops,Methods)/App1/methodusecase.py	
+@@ -0,0 +1,8 @@
++user_prompt = "Enter a To-Do:"
++
++todos = []
++
++while True:
++    todo = input(user_prompt)
++    todos.append(todo)
++    print(todos)
+Index: Section2(While-loops,Methods)/App1/main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Section2(While-loops,Methods)/App1/main.py b/Section2(While-loops,Methods)/App1/main.py
+new file mode 100644
+--- /dev/null	
++++ b/Section2(While-loops,Methods)/App1/main.py	
+@@ -0,0 +1,8 @@
++# While Basic Example
++user_prompt = "Enter the To-Do:"
++while True:
++    todo = input(user_prompt)
++    print("todo")
++    print("Next...")
++
++
